@@ -25,7 +25,7 @@ def calculate_bmi():
         result_label.config(text="Enter valid values for height and weight as exemplified.")
 
 window = tk.Tk()
-window.title("Calculate Your BMI") # Multiple spaces are used to center the title instead of aligning it to the left.
+window.title("                                                       Calculate Your BMI") # Multiple spaces are used to center the title instead of aligning it to the left.
 window.geometry("480x250")
 window.resizable(False, False)
 
